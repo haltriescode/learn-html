@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>@haltriescode</title>
+        <style>
+            body{
+                background-color: yellow;
+            }
+            h1{
+                text-align: center;
+            }
+            form{
+                padding: 20px;
+                margin-left: auto;
+                margin-right: auto;
+                text-align:center;
+                width: 30%;
+                height: auto;
+                border: 2px solid black;
+                background-color: aquamarine;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>HTML - Some Input Types</h1>
+        <section class="form">
+            <br>
+            <form>
+                <input type="button" value="Button">
+            </form>
+            <br>
+            <form>
+                <input
+                    type="checkbox"
+                    id="checkbox"
+                    name="subscribe"
+                    value="newsletter" />
+                <label for="checkbox">This is Checkbox Input</label>
+            </form>
+            <br>
+            <form>
+                <label>This is Color Input</label><br>
+                <input type="color">  
+            </form>
+            <br>
+            <form>
+                <label>Input Date:</label><br>
+                <input type="date">
+            </form>
+            <br>
+            <form>
+                <label>Input Date & Time:</label><br>
+                <input type="datetime-local">
+            </form>
+            <br>
+            <form>
+                <label>Input your email address:</label><br>
+                <input type="email" placeholder="test@example.com" />
+            </form>
+            <br>
+            <form>
+                <label for="picture">Input picture:</label><br>
+                <input type="file" id="picture" name="picture" accept="image/png, image/jpeg" />
+            </form>
+            <br>
+            <form>
+                <label>Input month:</label><br>
+                <input type="month">
+            </form>
+            <br>
+            <form>
+                <label>Input number:</label><br>
+                <input type="number">
+            </form>
+            <br>
+            <form>
+                <label>Input password:</label><br>
+                <input type="password">
+            </form>
+            <br>
+            <form>
+                <fieldset>
+                    <legend>Select Input:</legend>
+                    <div>
+                      <input type="radio" id="test1" name="drone" value="test1" checked />
+                      <label for="test1">Input 1</label>
+                    </div>
+                  
+                    <div>
+                        <input type="radio" id="test2" name="drone" value="test2" />
+                        <label for="test2">Input 2</label>
+                      </div>
+                  
+                      <div>
+                        <input type="radio" id="test3" name="drone" value="test3"/>
+                        <label for="test">Input 3</label>
+                      </div>
+                  </fieldset>
+            </form>
+            <br>
+            <form>
+                <p>Range Input</p>
+
+                <div>
+                    <input type="range" id="range" name="range" min="1" max="10" />
+                    <label for="range">From 1 to 10</label>
+                </div>
+            </form>
+        </section>
+        
+    </body>
+</html>
